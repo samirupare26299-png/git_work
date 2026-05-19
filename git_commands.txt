@@ -30,3 +30,7 @@ git stash pop               # bring it back
 📜 History
 bashgit log --oneline           # short history
 git diff                    # see what changed
+
+
+this is old file please cread new
+
