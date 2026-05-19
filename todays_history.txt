@@ -1,0 +1,500 @@
+   81  git clone git@github.com:apachelin/90DaysOfDevOps_sam.git
+   82  cd 90DaysOfDevOps_sam/
+   83  touch samirday1.txt
+   84  git status
+   85  git add samirday1.txt 
+   86  git commit -m "new one"
+   87  git push
+   88  history
+   89  pwd
+   90  ls 
+   91  cd 90days0fdevops/
+   92  ls -l
+   93  git status
+   94  git add 90DaysOfDevOps_sam/
+   95  cd 90DaysOfDevOps_sam/
+   96  git status
+   97  ls -l
+   98  touch samirgit.txt
+   99  vim samirgit.txt 
+  100  ls -l
+  101  git status
+  102  vim samirgadbad.etx
+  103  vim samirgadbad.txt
+  104  ls -l
+  105  cat samirgadbad.txt 
+  106  pwd
+  107  git status
+  108  git  add samirgit.txt 
+  109  git commit -m "this a good file"
+  110  git status
+  111  git log --oneline 
+  112  git log --oneline 
+  113  git status
+  114  git add samirgadbad.txt 
+  115  git commit -m "this is gadbad file"
+  116  git status
+  117  ls -l
+  118  git revert 6ff14e1
+  119  git status
+  120  git log --oneline 
+  121  git checkout dev
+  122  git status
+  123  git log --oneline 
+  124  ls -l
+  125  git checkout -b dev
+  126  git status
+  127  git log --oneline 
+  128  git pull master
+  129  git checkout master 
+  130  git pull dev
+  131  git checkout -b dev
+  132  git checkout dev
+  133  ls -l
+  134  git status
+  135  git init 
+  136  git status
+  137  touch yusuf.txt
+  138  vim yusuf.txt 
+  139  ls -l
+  140  git add yusuf.txt 
+  141  git commit -m "new boys"
+  142  git status
+  143  git log --oneline 
+  144  :
+  145  git checkout master 
+  146  git pull dev
+  147  q
+  148  git remote -v
+  149  pwd
+  150  git status
+  151  ls -l
+  152  cd 90days0fdevops
+  153  ls -l
+  154  cd 90DaysOfDevOps_sam
+  155  ls -l
+  156  git branch 
+  157  git status
+  158  ls -l
+  159  git checkout -b qa
+  160  git status
+  161  git checkout dev 
+  162  ls -l
+  163  git log --oneline 
+  164  git log --oneline -n 5 
+  165  git status
+  166  ls -l
+  167  vim ravi_git.txt
+  168  cat ravi_git.txt 
+  169  git add ravi_git.txt 
+  170  git commit -m "new file creating"
+  171  git status
+  172  git log --oneline -n 5
+  173  git checkout master
+  174  ls -l
+  175  touch prajwal.txt
+  176  ls -l
+  177  git add prajwal.txt 
+  178  git commit -m " new p"
+  179  git status
+  180  git log --oneline 
+  181  ls -l
+  182  git revert 366fd5a
+  183  git log  --oneline -n 5
+  184  ls -l
+  185  vim sundayrock.txt
+  186  git add sundayrock.txt 
+  187  git commit -m " sunday file step 1"
+  188  touch monday.txt
+  189  git -am monday.txt 
+  190  git add monday.txt 
+  191  git commit -m " time pass file"
+  192  git status
+  193  git log --oneline -n 5
+  194  vim sundayrock.txt 
+  195  git add sundayrock.txt 
+  196  git commit -m "sunday file step 2 add"
+  197  touch tuesday.txt
+  198  git add tuesday.txt 
+  199  git commit -m " timpass 2 file"
+  200  git log --oneline -n 7
+  201  git revert 2f6961c
+  202  git log --oneline -n 7
+  203  cat sundayrock.txt 
+  204  git status
+  205  ls -l
+  206  git log --oneline -n 6
+  207  git status
+  208  git reset --soft d0a026a
+  209  git status
+  210  cat tuesday.txt 
+  211  git log --oneline -n 6
+  212  ls -l
+  213  cat > day1git.txt
+  214  cat > day2git.txt
+  215  cat > day3git.txt
+  216  git add day1git.txt 
+  217  git commit -m "this is first day1"
+  218  add git day2git.txt 
+  219  git add day2git.txt 
+  220  git commit -m " this is for day 2 reset"
+  221  git add day3git.txt 
+  222  git commit -m " day 3 file "
+  223  git status
+  224  git log --oneline -n 8
+  225  ls -l
+  226  vim tuesday.txt 
+  227  git commit -am "day 4 reset"
+  228  git status
+  229  git log --oneline -n 8
+  230  git reset --soft 689f5bf
+  231  git status
+  232  git log --oneline -n 8
+  233  history
+  234  ls -l
+  235  git status
+  236  git status
+  237  git log --oneline -n 8
+  238  git commit -m " all are going to commit after soft reset"
+  239  git status
+  240  git log --oneline -n 8
+  241  git reset --mixed 04454f0
+  242  git status
+  243  git log --oneline -n 8
+  244  ls -l
+  245  git status
+  246  git log --oneline -n 8
+  247  git status
+  248  git log --oneline -n 8
+  249  git reset --hard 366fd5a
+  250  git status
+  251  git log --oneline -n 8
+  252  history
+  253  git log --oneline 
+  254  git log --oneline -n 2
+  255  history
+  256  pwd
+  257  cd /download 
+  258  cd Downloads/
+  259  pwd
+  260  ls -l
+  261  mkdir git_learn
+  262  cd git_learn/
+  263  pwd
+  264  mkdir day12
+  265  cd day12/
+  266  pwd
+  267  git config --global user.name "Samir143"
+  268  git config --global user.emial "samir143official@gmail.com
+  269  git config --global user.emial "samir143official@gmail.com"
+  270  pwdp
+  271  pwd
+  272  git config --global user.name "Samir143"
+  273  git config --global user.emial "samir143official@gmail.com"
+  274  git config --list
+  275  pwd
+  276  cd ..
+  277  pwd
+  278  pwd
+  279  git status
+  280  git init 
+  281  git status
+  282  ls -l
+  283  git add origin https://github.com/apachelin/Devops.git
+  284  git add origin https://github.com/apachelin/Devops.git
+  285  git remote -v
+  286  git add origin git@github.com:apachelin/Devops.git
+  287  key -gen
+  288  ls -l
+  289  cat > samir.txt
+  290  ls -l
+  291  git status
+  292  git add samir.txt 
+  293  git commit 
+  294  git status
+  295  git commit -m "yes
+  296  git commit -m "yes"
+  297  git status
+  298  git add origin git@github.com:apachelin/Devops.git
+  299  git remote -v
+  300  git set origin https://github.com/apachelin/Devops.git
+  301  git remote set-url origin https://github.com/apachelin/Devops.git
+  302  git remote add origin https://github.com/apachelin/Devops.git
+  303  git remote -v
+  304  git remote set-url origin https://github.com/apachelin/Devops.git
+  305  git status
+  306  git remote add origin https://github.com/apachelin/Devops.git
+  307  git remote add origin https://github.com/apachelin/Devops.gitpwd
+  308  pwd
+  309  mkdir Devops/day12.ttx
+  310  mkdir Devops/day12.txt
+  311  pwd
+  312  mkdir -p Devops/day12.txt
+  313  ls -l
+  314  cd Devops/
+  315  ls -l
+  316  vim day12.txt/
+  317  pwd
+  318  histpry
+  319  cd Downloads/
+  320  ssh -i "sam_docker.pem" ubuntu@ec2-3-129-11-241.us-east-2.compute.amazonaws.com
+  321  cd Downloads/
+  322  ls -l
+  323  chmod +x script.sh
+  324  ./script.sh
+  325  chmod +x script.sh
+  326  ./script.sh
+  327  ls
+  328  ls
+  329  cd C:\Users\samir\OneDrive\Desktop\Shell_2025\script.sh
+  330  cd C:\Users\samir\OneDrive\Desktop\Shell_2025ls
+  331  ls
+  332  cd C:\Users\samir\OneDrive\Desktop
+  333  cd c
+  334  cd c:
+  335  cd C:\Users\samir\OneDrive\Desktop
+  336  c:
+  337  d:
+  338  cd download
+  339  cd /download
+  340  c:
+  341  pwd
+  342  ls -lrth
+  343  c:
+  344  c :
+  345  ls
+  346  pwd
+  347  cd /usr/
+  348  ls -lrth
+  349  cd
+  350  pwd
+  351  cd mkdir Shell_scipting
+  352  mkdir Shell_scipting
+  353  ls -lrth
+  354  d She;
+  355  pwd
+  356  cd Shell_scipting
+  357  ls
+  358  touch first.sh
+  359  vim first.sh 
+  360  ./first.sh 
+  361  ls -lrth
+  362  sudo chmod +x first.sh 
+  363  sudo chmod 777 first.sh 
+  364  ls
+  365  cd /download
+  366  ls
+  367  cd 
+  368  pwd
+  369  ls
+  370  mkdir shell-scripts
+  371  ls -lrth shell-scripts/
+  372  vim proxy
+  373  vi proxy_monitor.sh
+  374  ls -lrth proxy_monitor.sh 
+  375  sudo chmod 744 proxy_monitor.sh
+  376  chmod 744 proxy_monitor.sh
+  377  ls -lrth proxy_monitor.sh 
+  378  sudo su
+  379  chmod +x proxy_monitor.sh 
+  380  ls -lrth proxy_monitor.sh 
+  381  ls -lrth proxy_monitor.sh 
+  382  ./proxy_monitor.sh
+  383  vi proxy_monitor.sh
+  384  ./proxy_monitor.sh
+  385  ./proxy_monitor.sh
+  386  ls -lrth
+  387  cat proxy_monitor.log
+  388  vi proxy_monitor.sh 
+  389  touch new.sh
+  390  vi new
+  391  mv new.sh proxy_monitor.sh 
+  392  cat proxy_monitor.sh 
+  393  cat proxy_monitor.sh 
+  394  cat new.sh
+  395  vi proxy_monitor.sh 
+  396  vim proxy_monitor.sh 
+  397  chmod +x proxy_monitor.sh 
+  398  ls -lrth proxy_monitor.sh 
+  399  ./proxy_monitor.sh 
+  400  vim proxy_monitor.sh 
+  401  ./proxy_monitor.sh 
+  402  vim proxy_monitor.sh \
+  403  ./proxy_monitor.sh 
+  404  vim proxy_monitor.sh 
+  405  ./proxy_monitor.sh 
+  406  vim proxy_monitor.sh 
+  407  ./proxy_monitor.sh 
+  408  yum instal
+  409  eadf -h
+  410  pwd
+  411  ll
+  412  git init
+  413  git init
+  414  pwd
+  415  ls -lrthls -lrth
+  416  mkdir may_2026
+  417  ll
+  418  cd may_2026/
+  419  ll
+  420  git status
+  421  touch README.md
+  422  ls 
+  423  ll
+  424  echo "# My DevOps Practice may months" > README.md
+  425  ll
+  426  cat README.md 
+  427  git init 
+  428  ll
+  429  git add .
+  430  git commit -m "add new file"
+  431  cd ..
+  432  ll
+  433  cd may_2026/
+  434  ll
+  435  cat README.md 
+  436  git init
+  437  git commit -m "first commit"
+  438  git branch -M main
+  439  git remote add origin https://github.com/apachelin/may_2026.git
+  440  git push -u origin main
+  441  git push -u origin main
+  442  git remote add origin https://github.com/apachelin/may_2026.git
+  443  git push -u origin main
+  444  git remote remove origin
+  445  git remote add origin https://github.com/samirupare26299-png/may2026.git
+  446  git push -u origin main
+  447  git pull origin main --allow-unrelated-histories
+  448  cat README.md
+  449  echo "# My DevOps Practice" > README.md
+  450  git add README.md 
+  451  git commit -m "resolved merge conflict"
+  452  git push -u origin main
+  453  ls
+  454  notes.txt
+  455  vi notes.txt
+  456  ll
+  457  git status
+  458  git add .
+  459  ls
+  460  git commit -m "new file"
+  461  git status
+  462  git push
+  463  git status
+  464  cd C:\Users\samir\OneDrive\Desktop
+  465  cd 
+  466  pwd
+  467  cd C:\Users\samir\OneDrive\Desktop
+  468  cd /c/Users/samir/OneDrive/Desktop
+  469  pwd
+  470  ls
+  471  cd Code\ Kloud\ challenge/
+  472  pwd
+  473  ls
+  474  git status
+  475  pwd
+  476  ls
+  477  rm -rf ~/.git
+  478  pwd
+  479  cd cd "/c/Users/samir/OneDrive/Desktop/Code Kloud challenge"
+  480  cd "/c/Users/samir/OneDrive/Desktop/Code Kloud challenge"
+  481  pwd
+  482  git status
+  483  git init
+  484  git status
+  485  git add .
+  486  ls
+  487  git add .
+  488  git add .
+  489  git status
+  490  git commit -m "Day 2 notes"
+  491  git remote add origin https://github.com/samirupare26299-png/codekloud-challenge.git
+  492  git branch -M main
+  493  git push -u origin main
+  494  git pull origin main --allow-unrelated-histories
+  495  git add .
+  496  git status
+  497  git commit -m "Merged remote repository"
+  498  git push -u origin main
+  499  clear 
+  500  history
+  501  git status
+  502  pwd
+  503  ls
+  504  cd C:\Users\samir\OneDrive\Desktop\Weblogic study
+  505  cd \Users\samir\OneDrive\Desktop\Weblogic study
+  506  cd \Users\samirpwd
+  507  c:
+  508  d:
+  509  c:
+  510  cd C:\Users\samir\OneDrive\Desktop\Weblogic study
+  511  find code
+  512  git status
+  513  ls -lrth
+  514  cd OneDrive/
+  515  ll
+  516  cd desktop
+  517  ll
+  518   cd 2026/
+  519  ll
+  520  cd ..
+  521  ll
+  522  pwd
+  523  ll
+  524  mkdir git_work
+  525  ll
+  526  cd git_work/
+  527  git remote -v
+  528  pwd
+  529  git init 
+  530  ll
+  531  sudo vi git commands 
+  532  vi git commands 
+  533  vi git_commands.txt 
+  534  ls
+  535  pwd
+  536  git add .
+  537  git commit -m "git commands"
+  538  git status
+  539  git push
+  540  pwd
+  541  cd ..
+  542  ll
+  543  git pull https://github.com/samirupare26299-png/Study-Material.git
+  544  git remote
+  545  git remote add origin https://github.com/samirupare26299-png/Study-Material.git
+  546  git status
+  547  ls -lrth
+  548  cd git_work/
+  549  ls -lrth
+  550  git status
+  551  ll
+  552  git branch -M main
+  553  git checkout 
+  554  git branch 
+  555  git remote add origin https://github.com/samirupare26299-png/git_work.git
+  556  pwd
+  557  ls
+  558  git remote -v
+  559  git push -u origin main
+  560  git status
+  561  git status
+  562  ls
+  563  vi git_commands.txt 
+  564  git status
+  565  git add git_commands.txt 
+  566  git status
+  567  git commit -m "file for create conflict"
+  568  git status 
+  569  git branch -M main 
+  570  git push -u origin main
+  571  git pull origin main
+  572  ls 
+  573  vi git_commands.txt 
+  574  git add 
+  575  git add .
+  576  git commit -m "conflict resolved"
+  577  git status
+  578  git push -u origin main
+  579  history
+  580  history >todays_history.txt
