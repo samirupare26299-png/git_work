@@ -1,0 +1,32 @@
+ One-Time Setup
+bashgit config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+
+🆕 Start Project
+bashgit init          # new project
+git clone <url>   # copy from GitHub
+
+💾 Daily Use (Most Important)
+bashgit status                  # what changed?
+git add .                   # stage all files
+git commit -m "message"     # save changes
+git push                    # send to GitHub
+git pull                    # get from GitHub
+
+
+🌿 Branches
+bashgit branch                  # see branches
+git checkout -b <name>      # create + switch
+git checkout main           # go back to main
+git merge <branch>          # merge branch
+
+⏪ Undo
+bashgit restore <file>          # undo file changes
+git reset HEAD~1            # undo last commit
+git stash                   # save work temporarily
+git stash pop               # bring it back
+
+📜 History
+bashgit log --oneline           # short history
+git diff                    # see what changed
