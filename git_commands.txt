@@ -29,8 +29,10 @@ git stash pop               # bring it back
 
 📜 History
 bashgit log --oneline           # short history
-kgit diff                    # see what changed
 
 
-tell me more commands
+
+
+this is old file please cread new
+>>>>>>> 8d8e7cc88fc06979815bbcbb5d1a32403cc89c46
 
