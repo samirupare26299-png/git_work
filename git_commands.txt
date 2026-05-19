@@ -29,4 +29,8 @@ git stash pop               # bring it back
 
 📜 History
 bashgit log --oneline           # short history
-git diff                    # see what changed
+kgit diff                    # see what changed
+
+
+tell me more commands
+
