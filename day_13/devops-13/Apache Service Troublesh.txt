@@ -1,0 +1,71 @@
+# Day 13 - Apache Service Troubleshooting
+
+## Problem
+Monitoring system reported that Apache service was unavailable on one of the application servers.
+
+Requirement:
+- Identify faulty server
+- Fix Apache service issue
+- Ensure Apache is running on all app servers
+- Apache should run on port 6000
+
+---
+
+## Troubleshooting Steps
+
+### 1. Check Apache Service Status
+
+Command:
+
+```bash
+systemctl status httpd
+
+Found Apache service was in failed state.
+
+2. Try Starting Apache
+
+Command:
+
+sudo systemctl start httpd
+
+Apache failed to start.
+
+3. Check Port Availability
+
+Checked whether required port was already in use.
+
+Command:
+
+sudo ss -tulpn | grep 6100
+
+Found another service was already using the Apache port.
+
+4. Stop Conflicting Service
+
+Stopped the service occupying the port:
+
+sudo systemctl stop <service-name>
+
+Disabled it to prevent starting after reboot:
+
+sudo systemctl disable <service-name>
+5. Start Apache Again
+sudo systemctl start httpd
+
+Apache started successfully.
+
+6. Verify Apache Status
+systemctl status httpd
+
+Check listening port:
+
+sudo ss -tulpn | grep 6100
+
+Apache was running successfully.
+
+Key Learnings
+Always check service status before restarting.
+Port conflicts can prevent services from starting.
+Use ss -tulpn to identify processes using ports.
+Stop and disable unnecessary services.
+Verify service and port after fixing.
